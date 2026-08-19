@@ -20,9 +20,66 @@ def parse_state(text):
     return ...
 
 
-def generate_actions(state):
-    raise NotImplementedError("This function is not implemented yet.")
+def generate_actions(state) :
+    hand, dealer_card, flag=state
+    value= hand_value (hand) 
+    if value >= 21
+    return ["stand"] 
+    else
+    return ["hit"] 
+
+def apply_action(state, action, next_card= none):
+    and, delear_card, flag=state
+    f action= "hit" and next_card:
+    hand. append(next_card)
+    return (hand, delear_card, flag) 
+elif action="stand"
+return(hand,dealer_card,flag)
+return state
+
+    
 
 
-def apply_action(state, action, next_card=None):
-    raise NotImplementedError("This function is not implemented yet.")
+
+
+
+
+
+
+    
+
+
+
+
+
+                              
+
+
+
+
+
+                              
+
+
+
+
+
+
+
+
+
+
+
+                 
+
+
+
+
+
+
+                 
+    rais
+
+
+
+
